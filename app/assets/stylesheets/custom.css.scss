@@ -2,6 +2,11 @@
 @import "bootstrap";
 /*header*/
 
+.jumbotron{
+	background-color:#fff;
+    //border:30px solid #99ccff;
+}
+
 #logo {float: left;
 		margin-right:10px;
 		font-size: 1.7em;
@@ -22,8 +27,13 @@
 }
 */
 /* footer */
-
-
+  a  {
+  color: #99ccff;
+		  &:hover {
+		  color: #0066ff;
+		  text-decoration: none;
+		  }
+}
 footer {
   margin-top: 45px;
   padding-top: 5px;
@@ -37,6 +47,7 @@ footer {
 		  text-decoration: none;
 		  }
 	}
+
 	 small {
 	  float: left;
 	}
@@ -101,3 +112,7 @@ p {
   line-height: 1.7em;
 }
 
+
+.btn{
+	margin-bottom:15px;
+}
