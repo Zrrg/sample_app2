@@ -14,6 +14,7 @@ gem 'sdoc',                 '0.4.0', group: :doc
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 group :development, :test do
+ # gem 'win32console'
   gem 'sqlite3',     '1.3.9'
   gem 'byebug',      '3.4.0'
   gem 'web-console', '~> 2.0'
@@ -21,9 +22,11 @@ group :development, :test do
 end
 
 group :test do
+	#gem 'minitest'
   gem 'minitest-reporters', '1.0.5'
   gem 'mini_backtrace',     '0.1.3'
   gem 'guard-minitest',     '2.3.1'
+ # gem 'turn'
 end
 
 group :production do
