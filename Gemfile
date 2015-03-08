@@ -19,6 +19,8 @@ group :development, :test do
   gem 'byebug',      '3.4.0'
   gem 'web-console', '~> 2.0'
   gem 'spring',      '1.1.3'
+  #gem colorize'
+ # gem 'redgreen'
 end
 
 group :test do
@@ -32,4 +34,5 @@ end
 group :production do
   gem 'pg',             '0.17.1'
   gem 'rails_12factor', '0.0.2'
+  gem 'puma',			'2.11.1'
 end
